@@ -6,10 +6,11 @@ menu1 = Menu.new(name: "ピザ", price: 800)
 menu2 = Menu.new(name: "すし", price: 1000)
 menu3 = Menu.new(name: "コーラ", price: 300)
 menu4 = Menu.new(name: "お茶", price: 200)
+menu5 = Menu.new(name: "そば", price: 700)
 
 # Menuクラスから生成したインスタンスを配列の要素とし、変数menusに代入。
 # この配列に対してeach文を用いることで、それぞれのメニューを表示する
-menus = [menu1, menu2, menu3, menu4]
+menus = [menu1, menu2, menu3, menu4, menu5]
 
 index = 0
 menus.each do |menu|
